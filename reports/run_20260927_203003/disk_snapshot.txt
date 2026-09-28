@@ -1,0 +1,1 @@
+bash: /c/Users/micha/Documents/TheoWAF/cpg/cloudfundamentals/fall_2026_bootcamp/diagnostics/shell/disk_snapshot.sh: No such file or directory

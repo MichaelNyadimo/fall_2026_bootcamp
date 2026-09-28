@@ -1,0 +1,1 @@
+bash: /c/Users/micha/Documents/TheoWAF/cpg/cloudfundamentals/fall_2026_bootcamp/diagnostics/shell/network_check.sh: No such file or directory
