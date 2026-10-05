@@ -1,9 +1,0 @@
-SYSTEM INFO
-===========
-Timestamp: 2026-10-04 21:04:06.133549
-Hostname: DESKTOP-MDKDNSB
-Operating system: Windows
-OS version: 10.0.19045
-Machine type: AMD64
-Current user ID: not available
-Current working directory: C:\Users\micha\Documents\TheoWAF\cpg\cloudfundamentals\fall_2026_bootcamp\live-server-diagnostics
