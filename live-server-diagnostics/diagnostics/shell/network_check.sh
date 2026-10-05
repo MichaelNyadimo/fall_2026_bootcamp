@@ -1,13 +1,16 @@
-#!/usr/bin/env bash
-
 TARGET_HOST="${1:-localhost}"
+
+case "$(uname -s)" in
+    MINGW*|MSYS*|CYGWIN*) COUNT_FLAG="-n" ;;
+    *) COUNT_FLAG="-c" ;;
+esac
 
 echo "NETWORK CHECK"
 echo "============="
 echo "Target host: $TARGET_HOST"
 echo
 
-if ping -c 2 "$TARGET_HOST" > /tmp/network_check_ping.txt 2>&1
+if ping $COUNT_FLAG 2 "$TARGET_HOST" > /tmp/network_check_ping.txt 2>&1
 then
     echo "Ping status: OK"
 else
