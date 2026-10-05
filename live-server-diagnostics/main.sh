@@ -38,8 +38,6 @@ run_step() {
 run_step \
     "Python system info check" \
     "$REPORT_DIR/system_info.txt" \
-  
-  
     py "$ROOT_DIR/diagnostics/python/system_info.py"
 
 run_step \

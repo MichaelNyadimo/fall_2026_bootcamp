@@ -1,6 +1,7 @@
 import sys
 from pathlib import Path
 
+
 def scan_log_file():
     if len(sys.argv) < 2:
         print("Missing log file path.")
@@ -22,3 +23,22 @@ def scan_log_file():
                 critical_count += 1
             elif "ERROR" in line:
                 error_count += 1
+            elif "WARN" in line:
+                warn_count += 1
+
+    print("LOG SCAN")
+    print("========")
+    print(f"Log file: {log_path}")
+    print(f"CRITICAL: {critical_count}")
+    print(f"ERROR: {error_count}")
+    print(f"WARN: {warn_count}")
+
+    if critical_count > 0:
+        print("Log status: CRITICAL")
+    elif error_count > 0:
+        print("Log status: WARNING")
+    else:
+        print("Log status: OK")
+
+
+scan_log_file()

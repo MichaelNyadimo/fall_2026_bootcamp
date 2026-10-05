@@ -7,7 +7,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 C:              447G  305G  142G  69% /c
 
 Directory size:
-43K	/c/Users/micha/Documents/TheoWAF/cpg/cloudfundamentals/fall_2026_bootcamp/live-server-diagnostics
+47K	/c/Users/micha/Documents/TheoWAF/cpg/cloudfundamentals/fall_2026_bootcamp/live-server-diagnostics
 
 File count:
 2
